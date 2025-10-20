@@ -86,7 +86,7 @@ useEffect(() => {
           <Link
             to="/dashboard"
             className={`bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 ${
-              admin === "ammarmuhamin@gmail.com" ? "block" : "hidden"
+              admin === "admin@gmail.com" ? "block" : "hidden"
             }`}
           >
             Dashboard
@@ -163,7 +163,7 @@ useEffect(() => {
           >
             Logout
           </button>
-          {admin === "ammarmuhamin@gmail.com" && (
+          {admin === "admin@gmail.com" && (
             <Link
               to="/dashboard"
               className="block bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700"
