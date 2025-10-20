@@ -87,7 +87,7 @@ const ApplyLoan = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              placeholder="Enter your Gmail"
+              placeholder="Enter your this Login gmail only"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
           </div>
